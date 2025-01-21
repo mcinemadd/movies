@@ -27,7 +27,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mcinema:mcinemadd@mcinemadd.l5iqk.mongodb.net/?retryWrites=true&w=majority&appName=mcinemadd")
 DATABASE_NAME = environ.get('DATABASE_NAME', "mcinemadd")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'COLLECTION_mcinemadd')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
